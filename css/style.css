@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'JetBrains Mono';
+    background-color: #4e4e4e;
+}
+
+#title-bar {
+    display: flex;
+    justify-content: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background-color: #fff;
+}
+
+#title {
+    background-color: #fff;
+}   
+
+#scoreboard {
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5vh;
+}
+
+#game {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2.5vh;
+}
+
+button {
+    border: none;
+    font-size: 100px;
+    cursor: pointer;
+}
+
+#result {
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5vh;
+}
+
+@media only screen and (max-width: 600px) {
+    #title {
+        font-size: 20px;
+    }
+
+    #scoreboard {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 65px;
+    }
+
+    #result {
+        font-size: 10px;
+    }
+}

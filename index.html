@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rock Paper Scissors Game</title>
+        <!-- FONT -->
+        <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="title-bar">
+            <h1 id="title">Rock Paper Scissors Game</h1>
+        </div>
+        <div id="app">
+            <div id="scoreboard">
+                <h1 id="userPoints">0</h1>
+                <h1>:</h1>
+                <h1 id="computerPoints">0</h1>
+            </div>
+            <div id="game">
+                <div class="button">
+                    <button onclick="game('rock')">&#9994;</button>
+                </div>
+                <div class="button">
+                    <button onclick="game('paper')">&#9995;</button>
+                </div>
+                <div class="button">
+                    <button onclick="game('scissors')">✌️</button>
+                </div>
+            </div>
+            <div id="result">
+                <h3 id="resultLabel"></h3>
+            </div>
+        </div>
+    </body>
+    <!-- JS -->
+    <script src="js/app.js"></script>
+</html>
